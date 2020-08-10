@@ -1,0 +1,87 @@
+form {
+    position: relative;
+}
+.footer-subscribe-form {
+    position: relative;
+    border: 2px solid $white;
+    border-radius: 70px;
+    padding: 12px 30px;
+    margin-bottom: 30px;
+    .form-group {
+        margin-bottom: 0;
+    }
+    .form-control {
+        background-color: transparent;
+        height: 70px;
+        border: none;
+        color: $white;
+    }
+}
+.form-horizontal{
+    &.row {
+        margin-left: -8px;
+        margin-right: -8px;
+         & > div {
+            padding-left: 8px;
+            padding-right: 0px;
+        }
+    }
+}
+.wpcf7-form{
+     input.required {
+        color: #888;
+        line-height: 46px!important;
+        margin-bottom: 16px!important;
+        width: 100%;
+        border-radius: 3px;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        -ms-border-radius: 3px;
+        -o-border-radius: 3px;
+        font-size: 15px;
+    }
+                textarea {
+                    height: 220px;
+                    width: 100%;
+                    padding-top: 10px!important;
+                }
+                .wpcf7-submit {
+                    padding: 0 38px;
+                    float: right;
+                    height: 40px;
+                    background-color: #075cc9!important;
+                    font-weight: 700;
+                    line-height: 40px;
+                    font-size: 16px;
+                    color: #fff;
+                    font-family: "Nunito Sans",sans-serif;
+                    border: none;
+                }           
+}  
+
+        .input-default, 
+        .post-password-form input[type=password], 
+        .wpcf7-form input[type="email"], 
+        .wpcf7-form input[type="number"], 
+        .wpcf7-form input[type="password"], 
+        .wpcf7-form input[type="tel"], 
+        .wpcf7-form input[type="url"], 
+        .wpcf7-form input[type="text"], 
+        .wpcf7-form textarea, 
+        .woocommerce .input-text {
+            border: 1px solid #e0e6ea;
+            line-height: 38px;
+            padding: 5px 15px;
+            margin-bottom: 16px;
+            outline: 0;
+            border-radius: 3px;
+            -webkit-border-radius: 3px;
+            -moz-border-radius: 3px;
+            -ms-border-radius: 3px;
+            -o-border-radius: 3px;
+            height: auto;
+            -webkit-box-shadow: none;
+            box-shadow: none;
+            background: #fff;
+            height: auto;
+    }
