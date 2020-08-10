@@ -1,0 +1,12 @@
+<div class="form-horizontal row">
+<div class="col-6">
+[text* Name placeholder "Name"]
+</div>
+<div class="col-6">
+[email* Email placeholder "Email"]
+</div>
+<div class="col-12">
+[textarea Message placeholder "Message"] </div>
+<div class="col-12">
+[submit "Send"]</div>
+</div>
